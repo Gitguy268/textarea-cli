@@ -46,6 +46,34 @@ func TestNotesFormattingBecomesMarkdown(t *testing.T) {
 	}
 }
 
+// TestRealNotesHTML uses bodies Notes.app itself returned (macOS, 2026-10-26)
+// after textarea-cli wrote them: Notes restyles <h1>-<h3> as bold in its own
+// heading font, and adds a <br> to the end of an edited line.
+func TestRealNotesHTML(t *testing.T) {
+	sent := "# Notes test one\n\nHello from the **terminal**.\n\n- [ ] a task #test\n- [x] a done task\n"
+	stored := `<div><b><font face=".AppleSystemUIFontBold"><span style="font-size: 24px">Notes test one</span></font></b><br></div>
+<div><br></div>
+<div>Hello from the **terminal**.</div>
+<div><br></div>
+<div>- [ ] a task #test</div>
+<div>- [x] a done task</div>
+<div><br></div>
+`
+	if got := NotesToMarkdown(stored); got != sent {
+		t.Errorf("round trip through Notes\n got %q\nwant %q", got, sent)
+	}
+	levels := `<div><b><font face=".AppleSystemUIFontBold"><span style="font-size: 24px">One</span></font></b></div>
+<div><b><font face=".AppleSystemUIFontBold"><span style="font-size: 18px">Two</span></font></b></div>
+<div><b><font face=".AppleSystemUIFontBold">Three</font></b></div>
+<div><b><span style="font-size: 24px">Edited title</span></b><br></div>
+<div><b>just bold</b> line</div>
+<div><b>whole bold line</b><br></div>`
+	want := "# One\n## Two\n### Three\n# Edited title\n**just bold** line\n**whole bold line**"
+	if got := NotesToMarkdown(levels); got != want {
+		t.Errorf("heading levels\n got %q\nwant %q", got, want)
+	}
+}
+
 func later(t *testing.T, path string, d time.Duration) {
 	t.Helper()
 	at := time.Now().Add(d)

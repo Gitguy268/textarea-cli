@@ -134,7 +134,9 @@ func (w *mdWriter) walk(n *xhtml.Node) {
 			w.open = true
 		} else {
 			w.endLine()
-			w.open = true
+			// A <br> closing its block (Notes adds one after an edited
+			// title) ends the line without starting an empty one.
+			w.open = n.NextSibling != nil
 		}
 		return
 	case "div", "p":
@@ -181,6 +183,11 @@ func (w *mdWriter) walk(n *xhtml.Node) {
 		if w.styled(n) {
 			return
 		}
+		if level := notesHeading(n); level > 0 && !w.open {
+			w.write(strings.Repeat("#", level) + " ")
+			w.children(n)
+			return
+		}
 		w.wrap(n, "**")
 		return
 	case "i", "em":
@@ -208,6 +215,35 @@ func (w *mdWriter) walk(n *xhtml.Node) {
 		return
 	}
 	w.children(n)
+}
+
+// notesHeading is the markdown level of a Notes heading, 0 for plain bold.
+// Notes stores the <h1>-<h3> it is given as bold in its own heading font:
+// 24px for the title, 18px for a heading, no size for a subheading. After a
+// scripted edit it may keep only the size, on a bare <span>.
+func notesHeading(n *xhtml.Node) int {
+	level := 0
+	var visit func(c *xhtml.Node)
+	visit = func(c *xhtml.Node) {
+		for ; c != nil && level != 1 && level != 2; c = c.NextSibling {
+			if c.Type != xhtml.ElementNode {
+				continue
+			}
+			switch style := attr(c, "style"); {
+			case strings.Contains(style, "font-size: 24px"):
+				level = 1
+			case strings.Contains(style, "font-size: 18px"):
+				level = 2
+			default:
+				if c.Data == "font" && attr(c, "face") == ".AppleSystemUIFontBold" {
+					level = 3
+				}
+				visit(c.FirstChild)
+			}
+		}
+	}
+	visit(n.FirstChild)
+	return level
 }
 
 // styled reports a <b> that is only the heading's own weight, which Notes

@@ -112,7 +112,7 @@ Sync is the same decision table as the web app's Folder sync, translated to Go a
 
 **Obsidian:** notes go into a `Textarea` folder in the vault, where the front matter shows as properties. Vaults are found from Obsidian's own `obsidian.json`.
 
-**Apple Notes:** notes go into a Notes folder of their own, through JavaScript for Automation. Markdown becomes Notes formatting on the way out and comes back as Markdown. A Notes note only counts as changed when its modification date moves, so a lossy round trip never looks like an edit. Sync never deletes a note it didn't create, and it skips locked notes. The first sync makes macOS ask whether your terminal may control Notes.
+**Apple Notes:** notes go into a Notes folder of their own, through JavaScript for Automation. `#`, `##` and `###` headings become Notes' title, heading and subheading styles. Everything else goes over as written, Markdown marks included, so it comes back exactly. Formatting you add inside Notes (bold, italic, strikethrough, links, bulleted, numbered and check lists) comes back as Markdown. A Notes note only counts as changed when its modification date moves, so a lossy round trip never looks like an edit. Sync never deletes a note it didn't create, and it skips locked notes. The first sync makes macOS ask whether your terminal may control Notes; a dry run reads Notes but creates nothing.
 
 </details>
 
@@ -140,8 +140,8 @@ Nothing is downloaded for you. Install what you want and give the model path in 
 
 ## Limits
 
-- **Apple Notes** sync has been tested against a stand-in for Notes.app in the unit tests, and has not yet been run against Notes itself. Try `text sync --dry-run` first.
-- Notes formatting that Markdown can't express (fonts, colours, drawings, attachments) doesn't survive a round trip through Apple Notes.
+- **Apple Notes** sync has been run against Notes.app on macOS with an iCloud account: both-way edits, notes made in Notes, and deletes on each side. It is macOS only.
+- Notes formatting that Markdown can't express (fonts, colours, tables, drawings, attachments) doesn't survive a round trip through Apple Notes.
 - Sync runs when you ask, or while `text sync --watch` is running. There's no background service.
 - Speech and writing tools need the separate programs above. They're optional, and untested in CI.
 
