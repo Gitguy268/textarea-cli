@@ -1,0 +1,186 @@
+{
+ "requests": [
+  {
+   "note": {
+    "created": 1000,
+    "id": "n1",
+    "style": "",
+    "text": "# Note one\n\nbody",
+    "updated": 2000,
+    "words": 2
+   },
+   "op": "render"
+  },
+  {
+   "note": {
+    "created": 1,
+    "id": "a b:c",
+    "style": "color: red; font: \"x\"",
+    "text": "",
+    "updated": 2,
+    "words": 0
+   },
+   "op": "render"
+  },
+  {
+   "note": {
+    "created": 0,
+    "id": "id-ok_1",
+    "style": "tab\there \u003cb\u003e\u0026",
+    "text": "---\nnot a block\n---",
+    "updated": 0,
+    "words": 5
+   },
+   "op": "render"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "Note"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "Textarea"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "a/b\\c:d*e?f\"g\u003ch\u003ei|j"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "CON"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "lpt1.txt"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "...dots"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "trailing. . "
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": ""
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "x.md"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+  },
+  {
+   "op": "filename",
+   "own": "",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀z"
+  },
+  {
+   "op": "filename",
+   "own": "Note.md",
+   "taken": [
+    "note.md",
+    "note (2).md",
+    "textarea.md",
+    "textarea (2).md"
+   ],
+   "title": "Note"
+  }
+ ],
+ "results": [
+  "---\nid: n1\ncreated: 1000\nupdated: 2000\nwords: 2\n---\n# Note one\n\nbody",
+  "---\nid: \"a b:c\"\ncreated: 1\nupdated: 2\nwords: 0\nstyle: \"color: red; font: \\\"x\\\"\"\n---\n",
+  "---\nid: id-ok_1\ncreated: 0\nupdated: 0\nwords: 5\nstyle: \"tab\\there \u003cb\u003e\u0026\"\n---\n---\nnot a block\n---",
+  "Note (3).md",
+  "Textarea (3).md",
+  "a_b_c_d_e_f_g_h_i_j.md",
+  "_CON.md",
+  "_lpt1.txt.md",
+  "dots.md",
+  "trailing.md",
+  "note (3).md",
+  "x.md",
+  "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé.md",
+  "😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀😀.md",
+  "Note.md"
+ ]
+}

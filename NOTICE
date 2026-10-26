@@ -1,0 +1,67 @@
+textarea-cli
+Copyright (c) 2026 Lucas Van De Weerd. Licensed under the MIT License (see LICENSE).
+
+The MIT grant covers textarea-cli's own code only. textarea-cli is built with,
+and at run time can call, the third-party software below, each under its own
+licence. textarea-cli is not affiliated with or endorsed by any of these
+projects or companies. Apple Notes, Obsidian, iCloud Drive, Dropbox, Google
+Drive and OneDrive are trademarks of their owners and are named only to say
+what textarea-cli works with.
+
+Ported from textarea
+--------------------------------------------------------------------------------
+Parts of textarea-cli are Go translations of the textarea web app's
+JavaScript, so that both write the same files and links. The web app is
+Lucas Van De Weerd's fork of Anton Medvedev's textarea. The share link format
+(compressed text in the address's #fragment) comes from Anton Medvedev's
+original. The note file format and file names, word counts, password links,
+the export formats, the search grammar and the folder sync plan come from the
+fork (lib/front-matter.js, lib/filename.js, lib/stats.js, lib/share.js,
+lib/formats.js, lib/export.js, lib/filter.js, lib/folder-sync.js).
+
+  textarea and its fork, MIT License.
+  Copyright (c) 2026 Lucas Van De Weerd
+  Copyright (c) 2026 Anton Medvedev
+  https://github.com/antonmedv/textarea
+  https://gitguy268-textarea.vercel.app
+
+Compiled into the text binary (Go modules, see go.mod for exact versions)
+--------------------------------------------------------------------------------
+- Bubble Tea, Bubbles, Lip Gloss, colorprofile, ultraviolet and x/ansi,
+  x/term, x/termios, x/windows, Copyright (c) Charmbracelet, Inc. MIT License.
+  https://github.com/charmbracelet
+- clipboard, Copyright (c) 2013 Ato Araki. BSD 3-Clause License.
+  https://github.com/atotto/clipboard
+- go-qrcode, Copyright (c) 2014 Tom Harwood. MIT License.
+  https://github.com/skip2/go-qrcode
+- golang.org/x/net, x/sync, x/sys, x/term and x/text, Copyright (c) The Go
+  Authors. BSD 3-Clause License. https://go.googlesource.com
+- displaywidth and uax29, Copyright (c) Matt Sherman. MIT License.
+- go-colorful, Copyright (c) 2013 Lucas Beyer. MIT License.
+- go-runewidth, Copyright (c) 2016 Yasuhiro Matsumoto. MIT License.
+- cancelreader, Copyright (c) 2022 Erik Geiser and Christian Muehlhaeuser.
+  MIT License.
+- uniseg, Copyright (c) 2019 Oliver Kuederle. MIT License.
+- terminfo (xo/terminfo), Copyright (c) 2016 Anmol Sethi. MIT License.
+
+Run as separate programs, only when you use them, never bundled
+--------------------------------------------------------------------------------
+- osascript and Notes, part of macOS, for the Apple Notes target.
+- whisper.cpp (whisper-cli), MIT License, for speech to text.
+  https://github.com/ggml-org/whisper.cpp
+- llama.cpp (llama-server), MIT License; llamafile, Apache-2.0; or Ollama,
+  MIT License, for the writing tools.
+- FFmpeg, LGPL-2.1-or-later or GPL depending on the build, or SoX's rec,
+  GPL-2.0-or-later, for recording and audio conversion.
+- Models you download for these tools come with their own licences.
+
+Ideas, no code
+--------------------------------------------------------------------------------
+These projects inspired parts of the design. Nothing was copied from them.
+
+- tw93/Mole (GPL-3.0): the numbered option menu that `text` opens, with
+  a letter or a digit to jump to a row.
+- jrnl-org/jrnl (GPL-3.0) and iridakos/stup (MIT): one note per day that
+  `text today …` adds timestamped lines to.
+- antoniorodr/memo (Apache-2.0): reaching Apple Notes by scripting Notes.app
+  from the terminal, inside a folder of its own.

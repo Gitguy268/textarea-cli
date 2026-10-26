@@ -1,0 +1,2706 @@
+{
+ "requests": [
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Hello\n\nworld",
+    "title": "Hello"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "\n\n  # Spaced title  \nbody",
+    "title": "Spaced title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "no heading at all",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# Title\r\nwith CRLF\r\n",
+    "title": "Title"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "﻿# BOM title\nx",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Para one.\n\n\nPara two\n \nPara three",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "line with ##### five mid-line\n###### six",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "true",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "value: with colon",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": " nbsp start　ideographic space #tag #after",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "# 2026-10-25\n\n- 18:53 called the bank\n",
+    "title": "2026-10-25"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] call mum\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "buy milk #home\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "#abc",
+    "style": "",
+    "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+    "title": "Textarea"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "txt",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "md",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "html",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "json",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "csv",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "xml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "rtf",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "tex",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  },
+  {
+   "format": "yml",
+   "note": {
+    "exportedAt": "2026-10-25T10:11:12.345Z",
+    "hash": "",
+    "style": "color: red",
+    "text": "x",
+    "title": "true"
+   },
+   "op": "convert"
+  }
+ ],
+ "results": [
+  "",
+  "\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"\"\n}\n",
+  "line,text\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n\n",
+  "# Hello\n\nworld",
+  "# Hello\n\nworld\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eHello\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e# Hello\n\nworld\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Hello\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"# Hello\\n\\nworld\"\n}\n",
+  "line,text\r\n1,\"# Hello\"\r\n2,\"\"\r\n3,\"world\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eHello\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[# Hello\n\nworld]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n# Hello\\par\n\\par\nworld\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Hello}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\# Hello\n\nworld\n\n\\end{document}",
+  "title: Hello\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  # Hello\n\n  world\n",
+  "\n\n  # Spaced title  \nbody",
+  "\n\n  # Spaced title  \nbody\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eSpaced title\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e\n\n  # Spaced title  \nbody\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Spaced title\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"\\n\\n  # Spaced title  \\nbody\"\n}\n",
+  "line,text\r\n1,\"\"\r\n2,\"\"\r\n3,\"  # Spaced title  \"\r\n4,\"body\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eSpaced title\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[\n\n  # Spaced title  \nbody]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n\\par\n\\par\n  # Spaced title  \\par\nbody\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Spaced title}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\n\n  \\# Spaced title  \nbody\n\n\\end{document}",
+  "title: Spaced title\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n\n\n    # Spaced title  \n  body\n",
+  "no heading at all",
+  "no heading at all\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eno heading at all\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"no heading at all\"\n}\n",
+  "line,text\r\n1,\"no heading at all\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[no heading at all]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nno heading at all\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nno heading at all\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  no heading at all\n",
+  "# Title\r\nwith CRLF\r\n",
+  "# Title\r\nwith CRLF\r\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTitle\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e# Title\r\nwith CRLF\r\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Title\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"# Title\\r\\nwith CRLF\\r\\n\"\n}\n",
+  "line,text\r\n1,\"# Title\r\"\r\n2,\"with CRLF\r\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTitle\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[# Title\r\nwith CRLF\r\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n# Title\r\\par\nwith CRLF\r\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Title}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\# Title\r\nwith CRLF\r\n\n\n\\end{document}",
+  "title: Title\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  # Title\r\n  with CRLF\r\n",
+  "﻿# BOM title\nx",
+  "﻿# BOM title\nx\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e﻿# BOM title\nx\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"﻿# BOM title\\nx\"\n}\n",
+  "line,text\r\n1,\"﻿# BOM title\"\r\n2,\"x\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[﻿# BOM title\nx]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n\\u-257?# BOM title\\par\nx\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n﻿\\# BOM title\nx\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  ﻿# BOM title\n  x\n",
+  "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**",
+  "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eTags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**\"\n}\n",
+  "line,text\r\n1,\"Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nTags: #home #work/taxes item #1 C# #\\u220?n\\u239?code #tag_with-dash/x and `#code` **#bold**\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nTags: \\#home \\#work/taxes item \\#1 C\\# \\#Ünïcode \\#tag\\_with-dash/x and `\\#code` **\\#bold**\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**\n",
+  "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash",
+  "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"```\\n#notatag\\n- [ ] not a task\\n```\\n- [ ] real task #inbox\\n- [x] done task\\n  * [X] nested done\\n- not a task\\n1. [ ] numbered task\\n-- dash\"\n}\n",
+  "line,text\r\n1,\"```\"\r\n2,\"#notatag\"\r\n3,\"'- [ ] not a task\"\r\n4,\"```\"\r\n5,\"'- [ ] real task #inbox\"\r\n6,\"'- [x] done task\"\r\n7,\"  * [X] nested done\"\r\n8,\"'- not a task\"\r\n9,\"1. [ ] numbered task\"\r\n10,\"'-- dash\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n```\\par\n#notatag\\par\n- [ ] not a task\\par\n```\\par\n- [ ] real task #inbox\\par\n- [x] done task\\par\n  * [X] nested done\\par\n- not a task\\par\n1. [ ] numbered task\\par\n-- dash\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\begin{verbatim}\n#notatag\n- [ ] not a task\n\\end{verbatim}\n\n\n- [ ] real task \\#inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  ```\n  #notatag\n  - [ ] not a task\n  ```\n  - [ ] real task #inbox\n  - [x] done task\n    * [X] nested done\n  - not a task\n  1. [ ] numbered task\n  -- dash\n",
+  "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]",
+  "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eLinks [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\"\n}\n",
+  "line,text\r\n1,\"Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nLinks [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nLinks [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]\n",
+  "Mail me at someone.name@example.com or google:best pizza \u0026 beer",
+  "Mail me at someone.name@example.com or google:best pizza \u0026 beer\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eMail me at someone.name@example.com or google:best pizza \u0026amp; beer\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Mail me at someone.name@example.com or google:best pizza \u0026 beer\"\n}\n",
+  "line,text\r\n1,\"Mail me at someone.name@example.com or google:best pizza \u0026 beer\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Mail me at someone.name@example.com or google:best pizza \u0026 beer]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nMail me at someone.name@example.com or google:best pizza \u0026 beer\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nMail me at someone.name@example.com or google:best pizza \\\u0026 beer\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Mail me at someone.name@example.com or google:best pizza \u0026 beer\n",
+  "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End",
+  "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eCJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\"\n}\n",
+  "line,text\r\n1,\"CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nCJK \\u26085?\\u26412?\\u-30050?\\u12398?\\u12486?\\u12461?\\u12473?\\u12488? \\u-10916?\\u-21139?\\u-14924? and emoji \\u-10179?\\u-8704?\\u-10179?\\u-9139? done. Next sentence! And? Yes\\u8230?  End\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nCJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End\n",
+  "Para one.\n\n\nPara two\n \nPara three",
+  "Para one.\n\n\nPara two\n \nPara three\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003ePara one.\n\n\nPara two\n \nPara three\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Para one.\\n\\n\\nPara two\\n \\nPara three\"\n}\n",
+  "line,text\r\n1,\"Para one.\"\r\n2,\"\"\r\n3,\"\"\r\n4,\"Para two\"\r\n5,\" \"\r\n6,\"Para three\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Para one.\n\n\nPara two\n \nPara three]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nPara one.\\par\n\\par\n\\par\nPara two\\par\n \\par\nPara three\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nPara one.\n\n\nPara two\n \nPara three\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Para one.\n\n\n  Para two\n   \n  Para three\n",
+  "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+  "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"=SUM(A1)\\n+1\\n-2\\n@x\\n\\\"quoted\\\"\\ntrailing\\n\"\n}\n",
+  "line,text\r\n1,\"'=SUM(A1)\"\r\n2,\"'+1\"\r\n3,\"'-2\"\r\n4,\"'@x\"\r\n5,\"\"\"quoted\"\"\"\r\n6,\"trailing\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n=SUM(A1)\\par\n+1\\par\n-2\\par\n@x\\par\n\"quoted\"\\par\ntrailing\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  =SUM(A1)\n  +1\n  -2\n  @x\n  \"quoted\"\n  trailing\n",
+  "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e",
+  "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eCode:\n```js\nconst a = {b: 1}\n```\nafter ]]\u0026gt; cdata \u0026amp; \u0026lt;b\u0026gt;\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Code:\\n```js\\nconst a = {b: 1}\\n```\\nafter ]]\u003e cdata \u0026 \u003cb\u003e\"\n}\n",
+  "line,text\r\n1,\"Code:\"\r\n2,\"```js\"\r\n3,\"const a = {b: 1}\"\r\n4,\"```\"\r\n5,\"after ]]\u003e cdata \u0026 \u003cb\u003e\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Code:\n```js\nconst a = {b: 1}\n```\nafter ]]]]\u003e\u003c![CDATA[\u003e cdata \u0026 \u003cb\u003e]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nCode:\\par\n```js\\par\nconst a = \\{b: 1\\}\\par\n```\\par\nafter ]]\u003e cdata \u0026 \u003cb\u003e\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nCode:\n\n\n\\begin{verbatim}\nconst a = {b: 1}\n\\end{verbatim}\n\n\nafter ]]\u003e cdata \\\u0026 \u003cb\u003e\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Code:\n  ```js\n  const a = {b: 1}\n  ```\n  after ]]\u003e cdata \u0026 \u003cb\u003e\n",
+  "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%",
+  "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e~~~\nfenced tilde\n~~~\n# heading $\u0026amp;#^_~%\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"~~~\\nfenced tilde\\n~~~\\n# heading $\u0026#^_~%\"\n}\n",
+  "line,text\r\n1,\"~~~\"\r\n2,\"fenced tilde\"\r\n3,\"~~~\"\r\n4,\"# heading $\u0026#^_~%\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n~~~\\par\nfenced tilde\\par\n~~~\\par\n# heading $\u0026#^_~%\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\begin{verbatim}\nfenced tilde\n\\end{verbatim}\n\n\n\\# heading \\$\\\u0026\\#\\^\\_\\~\\%\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  ~~~\n  fenced tilde\n  ~~~\n  # heading $\u0026#^_~%\n",
+  "line with ##### five mid-line\n###### six",
+  "line with ##### five mid-line\n###### six\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eline with ##### five mid-line\n###### six\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"line with ##### five mid-line\\n###### six\"\n}\n",
+  "line,text\r\n1,\"line with ##### five mid-line\"\r\n2,\"###### six\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[line with ##### five mid-line\n###### six]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nline with ##### five mid-line\\par\n###### six\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nline with \\#\\#\\#\\#\\# five mid-line\n\\#\\#\\#\\#\\#\\# six\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  line with ##### five mid-line\n  ###### six\n",
+  "true",
+  "true\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003etrue\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"true\"\n}\n",
+  "line,text\r\n1,\"true\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[true]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \ntrue\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\ntrue\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  true\n",
+  "value: with colon",
+  "value: with colon\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003evalue: with colon\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"value: with colon\"\n}\n",
+  "line,text\r\n1,\"value: with colon\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[value: with colon]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nvalue: with colon\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nvalue: with colon\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  value: with colon\n",
+  "Tab\tseparated\tline\n\nunicode — dash “quotes”",
+  "Tab\tseparated\tline\n\nunicode — dash “quotes”\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003eTab\tseparated\tline\n\nunicode — dash “quotes”\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"Tab\\tseparated\\tline\\n\\nunicode — dash “quotes”\"\n}\n",
+  "line,text\r\n1,\"Tab\tseparated\tline\"\r\n2,\"\"\r\n3,\"unicode — dash “quotes”\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[Tab\tseparated\tline\n\nunicode — dash “quotes”]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nTab\\tab separated\\tab line\\par\n\\par\nunicode \\u8212? dash \\u8220?quotes\\u8221?\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nTab\tseparated\tline\n\nunicode — dash “quotes”\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  Tab\tseparated\tline\n\n  unicode — dash “quotes”\n",
+  " nbsp start　ideographic space #tag #after",
+  " nbsp start　ideographic space #tag #after\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e nbsp start　ideographic space #tag #after\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \" nbsp start　ideographic space #tag #after\"\n}\n",
+  "line,text\r\n1,\" nbsp start　ideographic space #tag #after\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[ nbsp start　ideographic space #tag #after]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n\\u160?nbsp start\\u12288?ideographic space #tag\\u160?#after\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n nbsp start　ideographic space \\#tag \\#after\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n   nbsp start　ideographic space #tag #after\n",
+  "# 2026-10-25\n\n- 18:53 called the bank\n",
+  "# 2026-10-25\n\n- 18:53 called the bank\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003e2026-10-25\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e# 2026-10-25\n\n- 18:53 called the bank\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"2026-10-25\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"# 2026-10-25\\n\\n- 18:53 called the bank\\n\"\n}\n",
+  "line,text\r\n1,\"# 2026-10-25\"\r\n2,\"\"\r\n3,\"'- 18:53 called the bank\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003e2026-10-25\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[# 2026-10-25\n\n- 18:53 called the bank\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n# 2026-10-25\\par\n\\par\n- 18:53 called the bank\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{2026-10-25}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n\\# 2026-10-25\n\n- 18:53 called the bank\n\n\n\\end{document}",
+  "title: 2026-10-25\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  # 2026-10-25\n\n  - 18:53 called the bank\n",
+  "- [ ] call mum\n",
+  "- [ ] call mum\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e- [ ] call mum\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"- [ ] call mum\\n\"\n}\n",
+  "line,text\r\n1,\"'- [ ] call mum\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[- [ ] call mum\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n- [ ] call mum\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n- [ ] call mum\n\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  - [ ] call mum\n",
+  "buy milk #home\n",
+  "buy milk #home\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003ebuy milk #home\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"buy milk #home\\n\"\n}\n",
+  "line,text\r\n1,\"buy milk #home\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[buy milk #home\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nbuy milk #home\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nbuy milk \\#home\n\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  buy milk #home\n",
+  "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+  "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003eTextarea\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cmeta name=\"source\" content=\"#abc\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003e- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"Textarea\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"#abc\",\n  \"style\": null,\n  \"text\": \"- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\\nstatus:: draft\\n#work/taxes\\n\"\n}\n",
+  "line,text\r\n1,\"'- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\"\r\n2,\"status:: draft\"\r\n3,\"#work/taxes\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003eTextarea\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003csource\u003e#abc\u003c/source\u003e\n  \u003ctext\u003e\u003c![CDATA[- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \n- [ ] task \\u-10179?\\u-9019? 2026-10-30 \\u9195? \\u-10179?\\u-8959? every week\\par\nstatus:: draft\\par\n#work/taxes\\par\n\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{Textarea}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\n- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n\\#work/taxes\n\n\n\\end{document}",
+  "title: Textarea\nexportedAt: 2026-10-25T10:11:12.345Z\nsource: \"#abc\"\ntext: |-\n  - [ ] task 📅 2026-10-30 ⏫ 🔁 every week\n  status:: draft\n  #work/taxes\n",
+  "x",
+  "x\n",
+  "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\u003chead\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"\u003e\n\u003ctitle\u003etrue\u003c/title\u003e\n\u003cmeta name=\"generator\" content=\"textarea.my\"\u003e\n\u003cmeta name=\"exportedAt\" content=\"2026-10-25T10:11:12.345Z\"\u003e\n\u003cstyle\u003ebody { font: 18px/1.5 system-ui; white-space: pre-wrap; }\u003c/style\u003e\n\u003c/head\u003e\n\u003cbody\u003e\n\u003cpre\u003ex\u003c/pre\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n",
+  "{\n  \"title\": \"true\",\n  \"exportedAt\": \"2026-10-25T10:11:12.345Z\",\n  \"hash\": \"\",\n  \"style\": \"color: red\",\n  \"text\": \"x\"\n}\n",
+  "line,text\r\n1,\"x\"\r\n",
+  "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cnote xmlns=\"https://textarea.my/ns/1\"\u003e\n  \u003ctitle\u003etrue\u003c/title\u003e\n  \u003cexportedAt\u003e2026-10-25T10:11:12.345Z\u003c/exportedAt\u003e\n  \u003cstyle\u003ecolor: red\u003c/style\u003e\n  \u003ctext\u003e\u003c![CDATA[x]]\u003e\u003c/text\u003e\n\u003c/note\u003e",
+  "{\\rtf1\\ansi\\ansicpg1252\\deff0\n{\\fonttbl{\\f0\\fnil\\fcharset0 Helvetica;}}\n{\\colortbl;\\red0\\green0\\blue0;}\n\\f0\\fs22 \nx\n}\n",
+  "% Generated by textarea.my\n\\documentclass[11pt,a4paper]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage[margin=2.5cm]{geometry}\n\\usepackage{parskip}\n\\usepackage{hyperref}\n\n\\title{true}\n\\date{2026-10-25}\n\n\\begin{document}\n\\maketitle\n\nx\n\n\\end{document}",
+  "title: \"true\"\nexportedAt: 2026-10-25T10:11:12.345Z\nstyle: \"color: red\"\ntext: |-\n  x\n"
+ ]
+}

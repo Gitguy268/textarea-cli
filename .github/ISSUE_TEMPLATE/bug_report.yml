@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in textarea-cli does not work.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To reproduce
+      description: The command you ran and the keys you pressed.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where
+      options:
+        - The menu (text)
+        - Quick capture or a subcommand
+        - Sync to a folder
+        - Sync to Obsidian
+        - Sync to Apple Notes
+        - Sharing with the textarea web app
+        - Speech to text or writing tools
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - macOS
+        - Linux
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: "text version, terminal app"
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, or the output of `text sync --dry-run`. Remove anything private from your notes first.

@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+
+      - name: gofmt
+        if: runner.os != 'Windows'
+        run: test -z "$(gofmt -l .)" || { gofmt -l .; exit 1; }
+
+      - run: go vet ./...
+
+      # The textarea web app isn't checked out here, so the oracle tests
+      # replay testdata/oracle/ and the two live-only ones skip; -v shows which.
+      - name: Test
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = Windows ]; then go test -v ./... ; else go test -race -v ./... ; fi | tee test.log
+          echo "Oracle tests replayed from recordings:"; grep -c 'replaying the recorded answers' test.log || true
+          echo "Skipped:"; grep -- '--- SKIP' test.log || true
+
+      - name: Build
+        run: go build -trimpath -o dist/ ./cmd/text
+
+      - name: Smoke test
+        shell: bash
+        env:
+          TEXT_LIBRARY: ${{ runner.temp }}/lib
+          XDG_CONFIG_HOME: ${{ runner.temp }}/cfg
+        run: |
+          ./dist/text buy milk '#home'
+          ./dist/text ls --json | grep -q 'buy milk'
+          ./dist/text show 'buy milk' | grep -q '#home'

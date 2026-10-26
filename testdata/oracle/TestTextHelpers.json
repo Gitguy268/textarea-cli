@@ -1,0 +1,1059 @@
+{
+ "requests": [
+  {
+   "op": "parse",
+   "source": ""
+  },
+  {
+   "op": "title",
+   "text": ""
+  },
+  {
+   "op": "stats",
+   "text": ""
+  },
+  {
+   "op": "tags",
+   "text": ""
+  },
+  {
+   "op": "tasks",
+   "text": ""
+  },
+  {
+   "op": "wiki",
+   "text": ""
+  },
+  {
+   "op": "parse",
+   "source": "# Hello\n\nworld"
+  },
+  {
+   "op": "title",
+   "text": "# Hello\n\nworld"
+  },
+  {
+   "op": "stats",
+   "text": "# Hello\n\nworld"
+  },
+  {
+   "op": "tags",
+   "text": "# Hello\n\nworld"
+  },
+  {
+   "op": "tasks",
+   "text": "# Hello\n\nworld"
+  },
+  {
+   "op": "wiki",
+   "text": "# Hello\n\nworld"
+  },
+  {
+   "op": "parse",
+   "source": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "title",
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "stats",
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "tags",
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "tasks",
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "wiki",
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  {
+   "op": "parse",
+   "source": "no heading at all"
+  },
+  {
+   "op": "title",
+   "text": "no heading at all"
+  },
+  {
+   "op": "stats",
+   "text": "no heading at all"
+  },
+  {
+   "op": "tags",
+   "text": "no heading at all"
+  },
+  {
+   "op": "tasks",
+   "text": "no heading at all"
+  },
+  {
+   "op": "wiki",
+   "text": "no heading at all"
+  },
+  {
+   "op": "parse",
+   "source": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "title",
+   "text": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "stats",
+   "text": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "tags",
+   "text": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "tasks",
+   "text": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "wiki",
+   "text": "# Title\r\nwith CRLF\r\n"
+  },
+  {
+   "op": "parse",
+   "source": "﻿# BOM title\nx"
+  },
+  {
+   "op": "title",
+   "text": "﻿# BOM title\nx"
+  },
+  {
+   "op": "stats",
+   "text": "﻿# BOM title\nx"
+  },
+  {
+   "op": "tags",
+   "text": "﻿# BOM title\nx"
+  },
+  {
+   "op": "tasks",
+   "text": "﻿# BOM title\nx"
+  },
+  {
+   "op": "wiki",
+   "text": "﻿# BOM title\nx"
+  },
+  {
+   "op": "parse",
+   "source": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "title",
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "stats",
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "tags",
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "tasks",
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "wiki",
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  {
+   "op": "parse",
+   "source": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "title",
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "stats",
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "tags",
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "tasks",
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "wiki",
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  {
+   "op": "parse",
+   "source": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "title",
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "stats",
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "tags",
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "tasks",
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "wiki",
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  {
+   "op": "parse",
+   "source": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "title",
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "stats",
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "tags",
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "tasks",
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "wiki",
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  {
+   "op": "parse",
+   "source": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "title",
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "stats",
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "tags",
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "tasks",
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "wiki",
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  {
+   "op": "parse",
+   "source": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "title",
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "stats",
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "tags",
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "tasks",
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "wiki",
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  {
+   "op": "parse",
+   "source": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "title",
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "stats",
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "tags",
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "tasks",
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "wiki",
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  {
+   "op": "parse",
+   "source": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "title",
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "stats",
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "tags",
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "tasks",
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "wiki",
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  {
+   "op": "parse",
+   "source": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "title",
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "stats",
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "tags",
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "tasks",
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "wiki",
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  {
+   "op": "parse",
+   "source": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "title",
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "stats",
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "tags",
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "tasks",
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "wiki",
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  {
+   "op": "parse",
+   "source": "true"
+  },
+  {
+   "op": "title",
+   "text": "true"
+  },
+  {
+   "op": "stats",
+   "text": "true"
+  },
+  {
+   "op": "tags",
+   "text": "true"
+  },
+  {
+   "op": "tasks",
+   "text": "true"
+  },
+  {
+   "op": "wiki",
+   "text": "true"
+  },
+  {
+   "op": "parse",
+   "source": "value: with colon"
+  },
+  {
+   "op": "title",
+   "text": "value: with colon"
+  },
+  {
+   "op": "stats",
+   "text": "value: with colon"
+  },
+  {
+   "op": "tags",
+   "text": "value: with colon"
+  },
+  {
+   "op": "tasks",
+   "text": "value: with colon"
+  },
+  {
+   "op": "wiki",
+   "text": "value: with colon"
+  },
+  {
+   "op": "parse",
+   "source": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "title",
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "stats",
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "tags",
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "tasks",
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "wiki",
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  {
+   "op": "parse",
+   "source": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "title",
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "stats",
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "tags",
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "tasks",
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "wiki",
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  {
+   "op": "parse",
+   "source": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "title",
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "stats",
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "tags",
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "tasks",
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "wiki",
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  {
+   "op": "parse",
+   "source": "- [ ] call mum\n"
+  },
+  {
+   "op": "title",
+   "text": "- [ ] call mum\n"
+  },
+  {
+   "op": "stats",
+   "text": "- [ ] call mum\n"
+  },
+  {
+   "op": "tags",
+   "text": "- [ ] call mum\n"
+  },
+  {
+   "op": "tasks",
+   "text": "- [ ] call mum\n"
+  },
+  {
+   "op": "wiki",
+   "text": "- [ ] call mum\n"
+  },
+  {
+   "op": "parse",
+   "source": "buy milk #home\n"
+  },
+  {
+   "op": "title",
+   "text": "buy milk #home\n"
+  },
+  {
+   "op": "stats",
+   "text": "buy milk #home\n"
+  },
+  {
+   "op": "tags",
+   "text": "buy milk #home\n"
+  },
+  {
+   "op": "tasks",
+   "text": "buy milk #home\n"
+  },
+  {
+   "op": "wiki",
+   "text": "buy milk #home\n"
+  },
+  {
+   "op": "parse",
+   "source": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  {
+   "op": "title",
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  {
+   "op": "stats",
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  {
+   "op": "tags",
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  {
+   "op": "tasks",
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  {
+   "op": "wiki",
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  }
+ ],
+ "results": [
+  {
+   "data": null,
+   "text": ""
+  },
+  "Textarea",
+  {
+   "words": 0,
+   "characters": 0,
+   "charactersTight": 0,
+   "lines": 0,
+   "paragraphs": 0,
+   "sentences": 0,
+   "speakingMinutes": 0,
+   "readingMinutes": 0
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "# Hello\n\nworld"
+  },
+  "Hello",
+  {
+   "words": 3,
+   "characters": 14,
+   "charactersTight": 11,
+   "lines": 3,
+   "paragraphs": 2,
+   "sentences": 2,
+   "speakingMinutes": 0.023076923076923078,
+   "readingMinutes": 0.013636363636363636
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "\n\n  # Spaced title  \nbody"
+  },
+  "Spaced title",
+  {
+   "words": 4,
+   "characters": 25,
+   "charactersTight": 16,
+   "lines": 4,
+   "paragraphs": 1,
+   "sentences": 2,
+   "speakingMinutes": 0.03076923076923077,
+   "readingMinutes": 0.01818181818181818
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "no heading at all"
+  },
+  "Textarea",
+  {
+   "words": 4,
+   "characters": 17,
+   "charactersTight": 14,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.03076923076923077,
+   "readingMinutes": 0.01818181818181818
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "# Title\nwith CRLF\n"
+  },
+  "Title",
+  {
+   "words": 4,
+   "characters": 20,
+   "charactersTight": 14,
+   "lines": 3,
+   "paragraphs": 1,
+   "sentences": 2,
+   "speakingMinutes": 0.03076923076923077,
+   "readingMinutes": 0.01818181818181818
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "# BOM title\nx"
+  },
+  "Textarea",
+  {
+   "words": 4,
+   "characters": 14,
+   "charactersTight": 10,
+   "lines": 2,
+   "paragraphs": 1,
+   "sentences": 2,
+   "speakingMinutes": 0.03076923076923077,
+   "readingMinutes": 0.01818181818181818
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "Tags: #home #work/taxes item #1 C# #Ünïcode #tag_with-dash/x and `#code` **#bold**"
+  },
+  "Textarea",
+  {
+   "words": 11,
+   "characters": 82,
+   "charactersTight": 72,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.08461538461538462,
+   "readingMinutes": 0.05
+  },
+  [
+   "home",
+   "work/taxes",
+   "ünïcode",
+   "tag_with-dash/x"
+  ],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "```\n#notatag\n- [ ] not a task\n```\n- [ ] real task #inbox\n- [x] done task\n  * [X] nested done\n- not a task\n1. [ ] numbered task\n-- dash"
+  },
+  "Textarea",
+  {
+   "words": 34,
+   "characters": 134,
+   "charactersTight": 99,
+   "lines": 10,
+   "paragraphs": 1,
+   "sentences": 11,
+   "speakingMinutes": 0.26153846153846155,
+   "readingMinutes": 0.15454545454545454
+  },
+  [
+   "inbox"
+  ],
+  [
+   {
+    "done": false,
+    "text": "real task #inbox"
+   },
+   {
+    "done": true,
+    "text": "done task"
+   },
+   {
+    "done": true,
+    "text": "nested done"
+   },
+   {
+    "done": false,
+    "text": "numbered task"
+   }
+  ],
+  [],
+  {
+   "data": null,
+   "text": "Links [[Some Page]] and [[ spaced ]] and [[]] and [[a|b]]"
+  },
+  "Textarea",
+  {
+   "words": 11,
+   "characters": 57,
+   "charactersTight": 47,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.08461538461538462,
+   "readingMinutes": 0.05
+  },
+  [],
+  [],
+  [
+   "Some Page",
+   "spaced",
+   "a|b"
+  ],
+  {
+   "data": null,
+   "text": "Mail me at someone.name@example.com or google:best pizza \u0026 beer"
+  },
+  "Textarea",
+  {
+   "words": 9,
+   "characters": 63,
+   "charactersTight": 55,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.06923076923076923,
+   "readingMinutes": 0.04090909090909091
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "CJK 日本語のテキスト 한국어 and emoji 😀👍 done. Next sentence! And? Yes…  End"
+  },
+  "Textarea",
+  {
+   "words": 21,
+   "characters": 65,
+   "charactersTight": 53,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 5,
+   "speakingMinutes": 0.16153846153846155,
+   "readingMinutes": 0.09545454545454546
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "Para one.\n\n\nPara two\n \nPara three"
+  },
+  "Textarea",
+  {
+   "words": 6,
+   "characters": 33,
+   "charactersTight": 24,
+   "lines": 6,
+   "paragraphs": 3,
+   "sentences": 3,
+   "speakingMinutes": 0.046153846153846156,
+   "readingMinutes": 0.02727272727272727
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "=SUM(A1)\n+1\n-2\n@x\n\"quoted\"\ntrailing\n"
+  },
+  "Textarea",
+  {
+   "words": 6,
+   "characters": 36,
+   "charactersTight": 30,
+   "lines": 7,
+   "paragraphs": 1,
+   "sentences": 6,
+   "speakingMinutes": 0.046153846153846156,
+   "readingMinutes": 0.02727272727272727
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "Code:\n```js\nconst a = {b: 1}\n```\nafter ]]\u003e cdata \u0026 \u003cb\u003e"
+  },
+  "Textarea",
+  {
+   "words": 13,
+   "characters": 54,
+   "charactersTight": 42,
+   "lines": 5,
+   "paragraphs": 1,
+   "sentences": 5,
+   "speakingMinutes": 0.1,
+   "readingMinutes": 0.05909090909090909
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "~~~\nfenced tilde\n~~~\n# heading $\u0026#^_~%"
+  },
+  "Textarea",
+  {
+   "words": 7,
+   "characters": 38,
+   "charactersTight": 32,
+   "lines": 4,
+   "paragraphs": 1,
+   "sentences": 4,
+   "speakingMinutes": 0.05384615384615385,
+   "readingMinutes": 0.031818181818181815
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "line with ##### five mid-line\n###### six"
+  },
+  "Textarea",
+  {
+   "words": 7,
+   "characters": 40,
+   "charactersTight": 34,
+   "lines": 2,
+   "paragraphs": 1,
+   "sentences": 2,
+   "speakingMinutes": 0.05384615384615385,
+   "readingMinutes": 0.031818181818181815
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "true"
+  },
+  "Textarea",
+  {
+   "words": 1,
+   "characters": 4,
+   "charactersTight": 4,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.007692307692307693,
+   "readingMinutes": 0.004545454545454545
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "value: with colon"
+  },
+  "Textarea",
+  {
+   "words": 3,
+   "characters": 17,
+   "charactersTight": 15,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.023076923076923078,
+   "readingMinutes": 0.013636363636363636
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "Tab\tseparated\tline\n\nunicode — dash “quotes”"
+  },
+  "Textarea",
+  {
+   "words": 7,
+   "characters": 43,
+   "charactersTight": 36,
+   "lines": 3,
+   "paragraphs": 2,
+   "sentences": 2,
+   "speakingMinutes": 0.05384615384615385,
+   "readingMinutes": 0.031818181818181815
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": " nbsp start　ideographic space #tag #after"
+  },
+  "Textarea",
+  {
+   "words": 6,
+   "characters": 41,
+   "charactersTight": 35,
+   "lines": 1,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.046153846153846156,
+   "readingMinutes": 0.02727272727272727
+  },
+  [
+   "tag",
+   "after"
+  ],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "# 2026-10-25\n\n- 18:53 called the bank\n"
+  },
+  "2026-10-25",
+  {
+   "words": 7,
+   "characters": 38,
+   "charactersTight": 30,
+   "lines": 4,
+   "paragraphs": 2,
+   "sentences": 2,
+   "speakingMinutes": 0.05384615384615385,
+   "readingMinutes": 0.031818181818181815
+  },
+  [],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "- [ ] call mum\n"
+  },
+  "Textarea",
+  {
+   "words": 5,
+   "characters": 15,
+   "charactersTight": 10,
+   "lines": 2,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.038461538461538464,
+   "readingMinutes": 0.022727272727272728
+  },
+  [],
+  [
+   {
+    "done": false,
+    "text": "call mum"
+   }
+  ],
+  [],
+  {
+   "data": null,
+   "text": "buy milk #home\n"
+  },
+  "Textarea",
+  {
+   "words": 3,
+   "characters": 15,
+   "charactersTight": 12,
+   "lines": 2,
+   "paragraphs": 1,
+   "sentences": 1,
+   "speakingMinutes": 0.023076923076923078,
+   "readingMinutes": 0.013636363636363636
+  },
+  [
+   "home"
+  ],
+  [],
+  [],
+  {
+   "data": null,
+   "text": "- [ ] task 📅 2026-10-30 ⏫ 🔁 every week\nstatus:: draft\n#work/taxes\n"
+  },
+  "Textarea",
+  {
+   "words": 13,
+   "characters": 66,
+   "charactersTight": 53,
+   "lines": 4,
+   "paragraphs": 1,
+   "sentences": 3,
+   "speakingMinutes": 0.1,
+   "readingMinutes": 0.05909090909090909
+  },
+  [
+   "work/taxes"
+  ],
+  [
+   {
+    "done": false,
+    "text": "task 📅 2026-10-30 ⏫ 🔁 every week"
+   }
+  ],
+  []
+ ]
+}
