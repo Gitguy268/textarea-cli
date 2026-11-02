@@ -6,6 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+
+	"github.com/Gitguy268/textarea-cli/internal/syncplan"
 	"time"
 
 	"github.com/Gitguy268/textarea-cli/internal/config"
@@ -309,4 +311,23 @@ func TestAppleNotesSync(t *testing.T) {
 		t.Fatal("Beta should be in the trash")
 	}
 	_ = note.TitleOf
+}
+
+func TestRemovalBrake(t *testing.T) {
+	removes := func(n int) []syncplan.Action {
+		out := make([]syncplan.Action, n)
+		for i := range out {
+			out[i] = syncplan.Action{Type: syncplan.RemoveNote}
+		}
+		return out
+	}
+	cases := []struct {
+		removals, tracked int
+		stop              bool
+	}{{0, 40, false}, {1, 1, false}, {1, 3, false}, {2, 40, false}, {3, 40, false}, {2, 2, true}, {10, 40, true}, {40, 40, true}}
+	for _, c := range cases {
+		if _, stop := removalBrake(removes(c.removals), c.tracked); stop != c.stop {
+			t.Errorf("%d of %d: stop = %v, want %v", c.removals, c.tracked, stop, c.stop)
+		}
+	}
 }

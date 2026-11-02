@@ -9,12 +9,64 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
+	"time"
 
 	"github.com/Gitguy268/textarea-cli/internal/config"
 	"github.com/Gitguy268/textarea-cli/internal/note"
 	"github.com/Gitguy268/textarea-cli/internal/store"
 	"github.com/Gitguy268/textarea-cli/internal/syncplan"
 )
+
+// AllowRemovals lets one run through the brake. Set by `text sync --allow-removals`.
+var AllowRemovals bool
+
+// The brake: how much one pass may remove before it stops and asks. Same rule
+// as removalBrake in the web app's lib/folder-sync.js.
+const (
+	brakeMinRemovals = 3
+	brakeShare       = 0.25
+	parkedKeep       = 30 * 24 * time.Hour
+)
+
+// removalBrake says whether a plan removes too much to believe without asking:
+// a cloud client mid-resync or an unmounted drive looks exactly like the reader
+// deleting everything. It returns the removals and whether to stop.
+func removalBrake(actions []syncplan.Action, tracked int) (int, bool) {
+	removals := 0
+	for _, a := range actions {
+		if a.Type == syncplan.RemoveFile || a.Type == syncplan.RemoveNote {
+			removals++
+		}
+	}
+	if removals == 0 {
+		return 0, false
+	}
+	everything := tracked >= 2 && removals >= tracked
+	aLot := removals >= brakeMinRemovals && float64(removals)/float64(tracked) >= brakeShare
+	return removals, everything || aLot
+}
+
+// parkFile takes a file out of the mirror without destroying it: it moves to
+// .textarea/sync-removed under a timestamp, where the next pass cannot see it.
+func parkFile(dir, name string) error {
+	parked := filepath.Join(dir, ".textarea", "sync-removed")
+	if err := os.MkdirAll(parked, 0o755); err != nil {
+		return err
+	}
+	now := time.Now()
+	err := os.Rename(filepath.Join(dir, name), filepath.Join(parked, fmt.Sprintf("%d-%s", now.UnixMilli(), name)))
+	if err != nil && !os.IsNotExist(err) {
+		return err
+	}
+	if old, readErr := os.ReadDir(parked); readErr == nil {
+		for _, e := range old {
+			if info, infoErr := e.Info(); infoErr == nil && now.Sub(info.ModTime()) > parkedKeep {
+				os.Remove(filepath.Join(parked, e.Name()))
+			}
+		}
+	}
+	return nil
+}
 
 // Report is what one pass did, or would do on a dry run.
 type Report struct {
@@ -80,7 +132,8 @@ func SyncFolder(lib *store.Library, name, dir string, dryRun bool) (Report, erro
 	for i, e := range entries {
 		notes[i] = e.Note
 	}
-	actions, next := syncplan.Plan(notes, files, lib.Manifest(manifestKey(name)), store.NewID)
+	manifest := lib.Manifest(manifestKey(name))
+	actions, next := syncplan.Plan(notes, files, manifest, store.NewID)
 
 	for _, a := range actions {
 		switch a.Type {
@@ -97,6 +150,9 @@ func SyncFolder(lib *store.Library, name, dir string, dryRun bool) (Report, erro
 	if dryRun {
 		return rep, nil
 	}
+	if removals, stop := removalBrake(actions, len(manifest)); stop && !AllowRemovals {
+		return rep, fmt.Errorf("sync paused: %d of %d notes look deleted, nothing was removed. Check %s; if you did delete them, run text sync --allow-removals", removals, len(manifest), dir)
+	}
 
 	for _, a := range actions {
 		var err error
@@ -109,10 +165,7 @@ func SyncFolder(lib *store.Library, name, dir string, dryRun bool) (Report, erro
 		case syncplan.Import:
 			_, err = lib.Put(a.Record)
 		case syncplan.RemoveFile:
-			err = os.Remove(filepath.Join(dir, a.Name))
-			if os.IsNotExist(err) {
-				err = nil
-			}
+			err = parkFile(dir, a.Name)
 		case syncplan.RemoveNote:
 			err = lib.Trash(a.ID)
 		}

@@ -508,6 +508,7 @@ func cmdSync(env *ui.Env, args []string) error {
 	name := fs.String("name", "", "with --add: a name for the target")
 	remove := fs.String("remove", "", "stop syncing the named target (deletes nothing)")
 	list := fs.Bool("list", false, "list targets")
+	allow := fs.Bool("allow-removals", false, "let this run remove more than the brake allows (notes go to the trash)")
 	rest, err := parse(fs, args)
 	if err != nil {
 		return err
@@ -575,6 +576,7 @@ func cmdSync(env *ui.Env, args []string) error {
 	if len(targets) == 0 {
 		return errors.New("no sync targets yet: `text sync --add folder --path ~/Dropbox/Notes`, --add obsidian or --add applenotes")
 	}
+	target.AllowRemovals = *allow
 	pass := func() error {
 		for _, t := range targets {
 			rep, err := target.Sync(env.Lib, t, *dry)
