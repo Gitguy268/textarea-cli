@@ -2,7 +2,7 @@
 
 # textarea-cli
 
-[textarea](https://gitguy268-textarea.vercel.app) in the terminal. Type `text` for a menu, or `text buy milk` to jot something down without opening anything. The notes are the same Markdown files the web app's Folder sync writes, and they sync with Obsidian, Apple Notes and any folder.
+[textarea](https://gitguy268.github.io/textarea-cli/) in the terminal. Type `text` for a menu, or `text buy milk` to jot something down without opening anything. The notes are the same Markdown files the web app's Folder sync writes, and they sync with Obsidian, Apple Notes and any folder.
 
 [Features](#features) · [Install](#install) · [Use it](#use-it) · [Sync](#sync) · [Settings](#settings) · [Limits](#limits) · [Contributing](#contributing)
 
@@ -13,6 +13,32 @@
 ![The text menu: New note, Open, Quick capture, Today, Search, Tasks, Tags, Open a link, Sync, Trash, Settings, Help and Quit, each with a number and a letter](docs/menu.webp)
 
 </div>
+
+<!-- run-steps:start -->
+## Run it locally, step by step
+
+1. **Install [Go](https://go.dev/dl/) 1.27** or newer.
+
+2. **Get the code:**
+
+   ```sh
+   git clone https://github.com/Gitguy268/textarea-cli.git
+   cd textarea-cli
+   ```
+
+3. **Build it:**
+
+   ```sh
+   go build -o text ./cmd/text
+   ```
+
+4. **Run it:**
+
+   ```sh
+   ./text
+   ./text buy milk
+   ```
+<!-- run-steps:end -->
 
 ## Features
 
