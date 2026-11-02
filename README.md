@@ -14,6 +14,10 @@
 
 </div>
 
+<!-- live-links -->
+**Project page:** [gitguy268.github.io/textarea-cli](https://gitguy268.github.io/textarea-cli/) · [textarea-cli.vercel.app](https://textarea-cli.vercel.app)
+<!-- /live-links -->
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
