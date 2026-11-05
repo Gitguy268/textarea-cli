@@ -18,6 +18,15 @@
 **Project page:** [gitguy268.github.io/textarea-cli](https://gitguy268.github.io/textarea-cli/) · [textarea-cli.vercel.app](https://textarea-cli.vercel.app)
 <!-- /live-links -->
 
+## Install with Homebrew
+
+```sh
+brew trust gitguy268/tap
+brew install gitguy268/tap/textarea-cli
+```
+
+Installs the `text` command.
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
