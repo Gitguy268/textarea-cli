@@ -34,7 +34,7 @@ const (
 	DefaultIterations = 210_000
 	maxIterations     = 5_000_000
 	maxInflatedBytes  = 64 << 20
-	HashLimit         = 8000
+	HashLimit         = 80000
 )
 
 var magic = []byte("TXE1")
