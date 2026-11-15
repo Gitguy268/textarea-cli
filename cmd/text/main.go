@@ -7,6 +7,7 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"encoding/json"
 	"errors"
 	"flag"
@@ -22,6 +23,7 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"golang.org/x/term"
 
+	"github.com/Gitguy268/textarea-cli/internal/ai"
 	"github.com/Gitguy268/textarea-cli/internal/config"
 	"github.com/Gitguy268/textarea-cli/internal/export"
 	"github.com/Gitguy268/textarea-cli/internal/filter"
@@ -51,12 +53,14 @@ var commands = map[string]func(env *ui.Env, args []string) error{
 	"tasks":  cmdTasks,
 	"today":  cmdToday,
 	"link":   cmdLink, "open-link": cmdOpenLink,
-	"export": cmdExport,
-	"sync":   cmdSync,
-	"trash":  cmdTrash,
-	"rm":     cmdRemove,
-	"config": cmdConfig,
-	"menu":   func(env *ui.Env, _ []string) error { return runTUI(env, ui.MainMenu(env)) },
+	"export":     cmdExport,
+	"sync":       cmdSync,
+	"trash":      cmdTrash,
+	"rm":         cmdRemove,
+	"config":     cmdConfig,
+	"transcribe": cmdTranscribe,
+	"theme":      cmdTheme,
+	"menu":       func(env *ui.Env, _ []string) error { return runTUI(env, ui.MainMenu(env)) },
 }
 
 func run(args []string) error {
@@ -80,6 +84,7 @@ func run(args []string) error {
 	}
 	lib.PurgeTrash(cfg.TrashDays)
 	env := &ui.Env{Lib: lib, Cfg: cfg, Version: version}
+	ui.ApplyTheme(cfg.Theme, cfg.Accent)
 
 	if len(args) == 0 {
 		if !term.IsTerminal(int(os.Stdin.Fd())) {
@@ -664,4 +669,94 @@ func cmdConfig(env *ui.Env, args []string) error {
 		return nil
 	}
 	return printJSON(env.Cfg)
+}
+
+// cmdTranscribe prints what an audio file says: `text transcribe <audio>`,
+// with the model from Settings, or --model (a .gguf or ggml .bin) and
+// --mmproj for this run only.
+func cmdTranscribe(env *ui.Env, args []string) error {
+	fs := flags("transcribe")
+	model := fs.String("model", "", "a llama.cpp .gguf speech model or a whisper.cpp ggml .bin")
+	mmproj := fs.String("mmproj", "", "the GGUF model's mmproj projector (found beside it when empty)")
+	language := fs.String("l", env.Cfg.Language, "language code, or auto")
+	timeout := fs.Duration("timeout", 30*time.Minute, "give up after this long")
+	rest, err := parse(fs, args)
+	if err != nil {
+		return err
+	}
+	if len(rest) != 1 {
+		return errors.New("usage: text transcribe <audio> [--model m.gguf] [--mmproj p.gguf] [-l en]")
+	}
+	speechModel, projector, whisper := env.Cfg.SpeechModel, env.Cfg.SpeechProjector, env.Cfg.WhisperModel
+	if *model != "" {
+		speechModel, projector, whisper = *model, *mmproj, ""
+		if strings.HasSuffix(strings.ToLower(*model), ".gguf") {
+			if projector == "" {
+				projector = ai.FindProjector(*model)
+			}
+			if projector == "" {
+				return fmt.Errorf("no audio mmproj-….gguf beside %s; pass --mmproj", filepath.Base(*model))
+			}
+			if err := ai.CheckGGUFPair(*model, projector); err != nil {
+				return err
+			}
+		}
+	}
+	t, ok := ai.FindSpeech(speechModel, projector, whisper)
+	if !ok {
+		return errors.New("no speech model: llama-mtmd-cli with a GGUF pair, or whisper-cli with a ggml model (see `text config`)")
+	}
+	ctx, cancel := context.WithTimeout(context.Background(), *timeout)
+	defer cancel()
+	ctx, stop := signal.NotifyContext(ctx, os.Interrupt)
+	defer stop()
+	text, err := t.Transcribe(ctx, rest[0], *language)
+	if err != nil {
+		return err
+	}
+	fmt.Println(text)
+	return nil
+}
+
+// cmdTheme shows or sets the menu's look: `text theme`, `text theme xiao`,
+// `text theme glass --accent '#7c3aed'`.
+func cmdTheme(env *ui.Env, args []string) error {
+	fs := flags("theme")
+	accent := fs.String("accent", env.Cfg.Accent, "#rrggbb over the look, or \"\" for its own")
+	rest, err := parse(fs, args)
+	if err != nil {
+		return err
+	}
+	if len(rest) == 0 && *accent == env.Cfg.Accent {
+		for _, p := range ui.Themes {
+			mark := "  "
+			if p.ID == ui.ThemeByID(env.Cfg.Theme).ID {
+				mark = "* "
+			}
+			fmt.Printf("%s%-8s %s\n", mark, p.ID, p.Label)
+		}
+		if env.Cfg.Accent != "" {
+			fmt.Println("accent", env.Cfg.Accent)
+		}
+		return nil
+	}
+	if len(rest) > 0 {
+		id := rest[0]
+		if ui.ThemeByID(id).ID != id {
+			return fmt.Errorf("%s is not a look; try classic, win97, xiao or glass", id)
+		}
+		env.Cfg.Theme = id
+		if id == "classic" {
+			env.Cfg.Theme = ""
+		}
+	}
+	if *accent != "" && !ui.ValidAccent(*accent) {
+		return errors.New("an accent is written #rrggbb, like #7c3aed")
+	}
+	env.Cfg.Accent = strings.ToLower(*accent)
+	if err := env.Cfg.Save(); err != nil {
+		return err
+	}
+	fmt.Println("Look:", ui.ThemeByID(env.Cfg.Theme).Label+map[bool]string{true: ", accent " + env.Cfg.Accent, false: ""}[env.Cfg.Accent != ""])
+	return nil
 }

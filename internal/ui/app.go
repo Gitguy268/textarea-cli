@@ -175,7 +175,7 @@ func header(env *Env, stack []Screen, width int) string {
 	for _, s := range stack {
 		crumbs = append(crumbs, s.Title())
 	}
-	left := accentStyle.Render("▍textarea") + dimStyle.Render("  "+strings.Join(crumbs, " › "))
+	left := accentStyle.Render(headerMark+"textarea") + dimStyle.Render("  "+strings.Join(crumbs, " › "))
 	return truncate(left, width)
 }
 

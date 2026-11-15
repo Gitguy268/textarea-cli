@@ -67,7 +67,8 @@ Installs the `text` command.
 | Export | Plain text, Markdown, HTML, JSON, CSV, XML, RTF, LaTeX and YAML, to a file or the clipboard. |
 | Sync | Two-way with any folder (iCloud Drive, Dropbox, Google Drive, OneDrive, a USB stick), an Obsidian vault, or Apple Notes on a Mac. |
 | Trash | Deleted notes wait 30 days and can be restored. |
-| Optional AI | Speech to text with whisper.cpp, and the web app's five writing tools with llama.cpp, a llamafile or Ollama. Both run on your machine, and their menu rows appear only when the tools are installed. |
+| Optional AI | Speech to text with whisper.cpp or a llama.cpp GGUF speech model (the same pair the web app takes, such as Qwen3-ASR), and the web app's five writing tools with llama.cpp, a llamafile or Ollama. Both run on your machine, and their menu rows appear only when the tools are installed. |
+| Looks | The web app's four looks for the menu: Classic, Windows 97, Xiao and Liquid glass, with your own accent colour on top. `text theme xiao` or **Settings › Look**. |
 
 ![The animated demo captures a note, opens Trip to Lisbon, ticks a task, shows the task list and searches #travel](docs/demo.webp)
 
@@ -122,6 +123,8 @@ Every command that lists notes takes `--json`. A note can be named by its file n
 | `text rm <note>` | Move a note to the trash |
 | `text trash [restore\|empty]` | The trash |
 | `text config [path]` | Print the settings, or where they live |
+| `text transcribe <audio> [--model m.gguf] [--mmproj p.gguf] [-l en]` | Print what a recording says, with the speech model from Settings or the one given |
+| `text theme [look] [--accent #rrggbb]` | List the looks, or pick one (`classic`, `win97`, `xiao`, `glass`) |
 
 </details>
 
@@ -157,7 +160,7 @@ Sync is the same decision table as the web app's Folder sync, translated to Go a
 
 ## Settings
 
-**Settings ›** in the menu covers the library folder, editor, sort order, how long the trash keeps notes, a word goal and the AI models. They're stored in `config.json` (`text config path` shows where).
+**Settings ›** in the menu covers the library folder, editor, sort order, how long the trash keeps notes, a word goal, the AI models, the look and an accent colour. They're stored in `config.json` (`text config path` shows where).
 
 | Variable | Effect |
 |---|---|
@@ -172,7 +175,8 @@ Sync is the same decision table as the web app's Folder sync, translated to Go a
 
 Nothing is downloaded for you. Install what you want and give the model path in Settings:
 
-- **Speech to text:** [whisper.cpp](https://github.com/ggml-org/whisper.cpp) (`whisper-cli`) with a `ggml-*.bin` model. Recording uses ffmpeg or sox's `rec`; transcribing a file other than `.wav` needs ffmpeg. The web app's in-browser models can't be reused here.
+- **Speech to text, llama.cpp:** `llama-mtmd-cli` (`brew install llama.cpp`) with a GGUF speech model and its `mmproj` projector, for example both Q8_0 files from [ggml-org/Qwen3-ASR-0.6B-GGUF](https://huggingface.co/ggml-org/Qwen3-ASR-0.6B-GGUF). Give the model's path as **Speech model**; the projector is found beside it, or set **Speech projector**. Both headers are checked first, as in the web app, and audio goes in thirty seconds at a time (fed whole, llama.cpp dropped sentences from a 77-second test). `.wav`, `.mp3` and `.flac` work without ffmpeg. Tested with Qwen3-ASR 0.6B: about two seconds for an eleven-second clip on an Apple M4.
+- **Speech to text, whisper.cpp:** `whisper-cli` with a `ggml-*.bin` model as **Speech model**. Recording uses ffmpeg or sox's `rec`; transcribing a file other than `.wav` needs ffmpeg.
 - **Writing tools** (improve, shorten, summarise, fix, casual): [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server` with a GGUF model, a `.llamafile`, or [Ollama](https://ollama.com) with a model pulled. The prompts are the web app's.
 
 </details>

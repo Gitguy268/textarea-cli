@@ -27,8 +27,16 @@ type Config struct {
 	WordGoal     int      `json:"wordGoal,omitempty"`
 	Targets      []Target `json:"targets,omitempty"`
 	WhisperModel string   `json:"whisperModel,omitempty"`
-	LlamaModel   string   `json:"llamaModel,omitempty"`
-	Language     string   `json:"language,omitempty"`
+	// SpeechModel is a llama.cpp GGUF speech model, run by llama-mtmd-cli;
+	// SpeechProjector its mmproj, found beside the model when empty.
+	SpeechModel     string `json:"speechModel,omitempty"`
+	SpeechProjector string `json:"speechProjector,omitempty"`
+	// Theme is the menu's look (classic, win97, xiao, glass) and Accent an
+	// optional #rrggbb over it. Kept here only, never in a note.
+	Theme      string `json:"theme,omitempty"`
+	Accent     string `json:"accent,omitempty"`
+	LlamaModel string `json:"llamaModel,omitempty"`
+	Language   string `json:"language,omitempty"`
 }
 
 // Dir is where config.json lives: $XDG_CONFIG_HOME/textarea-cli when that

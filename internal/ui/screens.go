@@ -47,11 +47,11 @@ func mainItems(env *Env) []Item {
 		{Key: "s", Label: "Sync ›", Desc: syncSummary(env), Run: func(env *Env) tea.Cmd { return push(syncMenu(env)) }},
 		{Key: "r", Label: "Trash", Desc: trashSummary(env), Run: trashPicker},
 	}
-	if w, ok := ai.FindWhisper(env.Cfg.WhisperModel); ok {
-		items = append(items, Item{Key: "v", Label: "Speech to text ›", Desc: "whisper.cpp · " + filepath.Base(w.Model), Run: func(env *Env) tea.Cmd { return push(speechMenu(env)) }})
+	if t, ok := findSpeech(env); ok {
+		items = append(items, Item{Key: "v", Label: "Speech to text ›", Desc: t.Name(), Run: func(env *Env) tea.Cmd { return push(speechMenu(env)) }})
 	}
 	items = append(items,
-		Item{Key: ",", Label: "Settings ›", Desc: "Library, editor, sort, trash, models", Run: func(env *Env) tea.Cmd { return push(settingsMenu(env)) }},
+		Item{Key: ",", Label: "Settings ›", Desc: "Library, editor, sort, trash, models, look", Run: func(env *Env) tea.Cmd { return push(settingsMenu(env)) }},
 		Item{Key: "?", Label: "Help", Desc: "Keys, and the commands for scripts", Run: help},
 		Item{Key: "q", Label: "Quit", Desc: "", Run: func(*Env) tea.Cmd { return func() tea.Msg { return quitMsg{} } }},
 	)
@@ -922,15 +922,78 @@ func settingsMenu(env *Env) *Menu {
 					return tea.Batch(pop(), save("Writing model saved"))
 				}))
 			}},
-			{Key: "s", Label: "Whisper model", Value: func(env *Env) string {
-				if w, ok := ai.FindWhisper(c.WhisperModel); ok {
-					return filepath.Base(w.Model)
+			{Key: "s", Label: "Speech model", Value: func(env *Env) string {
+				if t, ok := findSpeech(env); ok {
+					return t.Name()
 				}
-				return "needs whisper-cli (whisper.cpp) and a ggml model"
+				if strings.HasSuffix(strings.ToLower(c.SpeechModel), ".gguf") {
+					return "needs llama-mtmd-cli (llama.cpp) and the model's mmproj"
+				}
+				return "needs whisper-cli and a ggml model, or llama-mtmd-cli and a GGUF"
 			}, Run: func(env *Env) tea.Cmd {
-				return push(NewPrompt("Whisper model", "Path to a ggml-*.bin model", "", c.WhisperModel, false, func(env *Env, v string) tea.Cmd {
-					c.WhisperModel = expand(v)
-					return tea.Batch(pop(), save("Whisper model saved"))
+				current := firstNonEmpty(c.SpeechModel, c.WhisperModel)
+				return push(NewPrompt("Speech model", "A llama.cpp .gguf speech model, or a whisper.cpp ggml-*.bin",
+					"A .gguf needs its mmproj beside it (or set below), e.g. ggml-org/Qwen3-ASR-0.6B-GGUF. Empty finds a whisper model.",
+					tildify(current), false, func(env *Env, v string) tea.Cmd {
+						path := expand(strings.TrimSpace(v))
+						switch {
+						case path == "":
+							c.SpeechModel, c.SpeechProjector, c.WhisperModel = "", "", ""
+						case strings.HasSuffix(strings.ToLower(path), ".gguf"):
+							projector := c.SpeechProjector
+							if projector == "" {
+								projector = ai.FindProjector(path)
+							}
+							if projector == "" {
+								return fail(fmt.Errorf("no audio mmproj-….gguf beside %s; set Speech projector too", filepath.Base(path)))
+							}
+							if err := ai.CheckGGUFPair(path, projector); err != nil {
+								return fail(err)
+							}
+							c.SpeechModel = path
+						default:
+							c.SpeechModel, c.WhisperModel = "", path
+						}
+						return tea.Batch(pop(), save("Speech model saved"))
+					}))
+			}},
+			{Key: "p", Label: "Speech projector", Value: func(env *Env) string {
+				if c.SpeechProjector != "" {
+					return tildify(c.SpeechProjector)
+				}
+				if p := ai.FindProjector(c.SpeechModel); c.SpeechModel != "" && p != "" {
+					return "found: " + filepath.Base(p)
+				}
+				return "beside the GGUF model"
+			}, Run: func(env *Env) tea.Cmd {
+				return push(NewPrompt("Speech projector", "The model's mmproj-….gguf (empty finds it beside the model)", "", tildify(c.SpeechProjector), false, func(env *Env, v string) tea.Cmd {
+					path := expand(strings.TrimSpace(v))
+					if path != "" && c.SpeechModel != "" {
+						if err := ai.CheckGGUFPair(c.SpeechModel, path); err != nil {
+							return fail(err)
+						}
+					}
+					c.SpeechProjector = path
+					return tea.Batch(pop(), save("Speech projector saved"))
+				}))
+			}},
+			{Key: "c", Label: "Look", Value: func(*Env) string { return ThemeByID(c.Theme).Label }, Run: func(env *Env) tea.Cmd {
+				c.Theme = NextTheme(ThemeByID(c.Theme).ID)
+				if c.Theme == "classic" {
+					c.Theme = ""
+				}
+				ApplyTheme(c.Theme, c.Accent)
+				return save("Look: " + ThemeByID(c.Theme).Label)
+			}},
+			{Key: "a", Label: "Accent colour", Value: func(*Env) string { return firstNonEmpty(c.Accent, "the look's own") }, Run: func(env *Env) tea.Cmd {
+				return push(NewPrompt("Accent colour", "#rrggbb, or empty for the look's own", "", c.Accent, false, func(env *Env, v string) tea.Cmd {
+					v = strings.TrimSpace(v)
+					if v != "" && !ValidAccent(v) {
+						return fail(fmt.Errorf("an accent is written #rrggbb, like #7c3aed"))
+					}
+					c.Accent = strings.ToLower(v)
+					ApplyTheme(c.Theme, c.Accent)
+					return tea.Batch(pop(), save("Accent saved"))
 				}))
 			}},
 			{Key: "l", Label: "Speech language", Value: func(*Env) string { return firstNonEmpty(c.Language, "auto") }, Run: func(env *Env) tea.Cmd {
@@ -1028,13 +1091,18 @@ func runTool(env *Env, e store.Entry, t ai.Tool) tea.Cmd {
 	return tea.Batch(push(wait), job)
 }
 
+// findSpeech is the speech backend Settings point at.
+func findSpeech(env *Env) (ai.Transcriber, bool) {
+	return ai.FindSpeech(env.Cfg.SpeechModel, env.Cfg.SpeechProjector, env.Cfg.WhisperModel)
+}
+
 func speechMenu(env *Env) *Menu {
-	return NewMenu(env, "Speech to text", "whisper.cpp on this machine. The recording is never uploaded.", func(env *Env) []Item {
+	return NewMenu(env, "Speech to text", "whisper.cpp or llama.cpp on this machine. The recording is never uploaded.", func(env *Env) []Item {
 		items := []Item{}
 		if ai.CanRecord() {
 			items = append(items, Item{Key: "r", Label: "Record", Desc: "From the microphone; Enter stops", Run: record})
 		}
-		items = append(items, Item{Key: "f", Label: "Transcribe a file…", Desc: "Any audio ffmpeg reads, or a .wav", Run: func(env *Env) tea.Cmd {
+		items = append(items, Item{Key: "f", Label: "Transcribe a file…", Desc: "Any audio ffmpeg reads, or a .wav (.mp3 and .flac too with a GGUF)", Run: func(env *Env) tea.Cmd {
 			return push(NewPrompt("Transcribe", "Audio file", "", "", false, func(env *Env, v string) tea.Cmd {
 				s, job := transcribing(env, expand(v), false)
 				return tea.Batch(replace(s), job)
@@ -1087,8 +1155,11 @@ func record(env *Env) tea.Cmd {
 }
 
 func transcribing(env *Env, path string, temporary bool) (Screen, tea.Cmd) {
-	w, _ := ai.FindWhisper(env.Cfg.WhisperModel)
-	wait := &working{title: "Transcribing", what: "Transcribing with " + filepath.Base(w.Model) + "…", started: time.Now()}
+	w, ok := findSpeech(env)
+	if !ok {
+		return NewMessage("Transcript", errorStyle.Render("No speech model: set one in Settings."), ""), nil
+	}
+	wait := &working{title: "Transcribing", what: "Transcribing with " + w.Name() + "…", started: time.Now()}
 	wait.done = func(msg tea.Msg) (Screen, tea.Cmd, bool) {
 		m, ok := msg.(aiDoneMsg)
 		if !ok {
@@ -1157,6 +1228,8 @@ From a shell
   text rm <note>              move a note to the trash
   text trash [restore|empty]  the trash
   text config [path]          settings
+  text transcribe <audio>     speech to text (--model m.gguf --mmproj p.gguf -l en)
+  text theme [look]           classic, win97, xiao or glass (--accent #rrggbb)
 `
 
 func help(env *Env) tea.Cmd {
