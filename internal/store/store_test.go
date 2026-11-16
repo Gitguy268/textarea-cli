@@ -26,7 +26,8 @@ func TestLibraryLifecycle(t *testing.T) {
 	if a.File != "Groceries.md" || a.Words == 0 || a.Created != clock || a.Updated != clock {
 		t.Fatalf("create: %+v", a)
 	}
-	if info, _ := os.Stat(filepath.Join(dir, a.File)); info.Mode().Perm() != 0o644 {
+	// Windows files have a read-only bit, not permission bits.
+	if info, _ := os.Stat(filepath.Join(dir, a.File)); runtime.GOOS != "windows" && info.Mode().Perm() != 0o644 {
 		t.Errorf("new file mode %v, want 0644", info.Mode().Perm())
 	}
 
